@@ -56,3 +56,7 @@ Coinod
 **/secp256k1/*.lo
 assets/splash/*.gif
 V3/src/Coinod
+
+# === Большие бинарники в src/ ===
+V3/src/Coinod
+V3/src/build.h
