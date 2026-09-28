@@ -1,19 +1,37 @@
 # CoinoCore V4
 
-**Статус:** 🔧 В разработке  
-**Цель:** новая сеть с новым genesis-блоком.
+**Status:** 🔧 In development  
+**Goal:** New network with a new genesis block.
 
-## План портирования
-- [ ] Фаза 1: Параметры сети (chainparams.cpp)
-- [ ] Фаза 2: X11 (из Dash)
-- [ ] Фаза 3: PoS (из PIVX)
-- [ ] Фаза 4: Кошелёк (SQLite + Descriptor Wallets)
-- [ ] Фаза 5: Сборка (depends)
+---
 
-## База
-- Bitcoin Core v27.0
-- Dash v0.14
-- PIVX v5.5.0
+## Porting plan
 
-**Автор:** CoinoCore Team  
-**Дата:** 2026
+- [ ] **Phase 1:** Network parameters (`chainparams.cpp`)
+- [ ] **Phase 2:** X11 (from Dash)
+- [ ] **Phase 3:** PoS (from PIVX)
+- [ ] **Phase 4:** Wallet (SQLite + Descriptor Wallets)
+- [ ] **Phase 5:** Build system (`depends`)
+
+---
+
+## Base
+
+- **Bitcoin Core v27.0** — foundation
+- **Dash v0.14** — X11 donor
+- **PIVX v5.5.0** — PoS donor
+- **src-coino-old** — network parameters
+
+---
+
+## Important
+
+- New genesis block
+- New `pchMessageStart`
+- v2/v3 coins **do not apply** in v4 (unless a snapshot is used)
+- This is a **hard fork** — a separate project
+
+---
+
+**Author:** CoinoCore Team  
+**Date:** 2026
