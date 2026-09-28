@@ -55,3 +55,4 @@ Coinod
 **/secp256k1/*.o
 **/secp256k1/*.lo
 assets/splash/*.gif
+V3/src/Coinod
