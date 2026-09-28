@@ -5,64 +5,69 @@
 <h1 align="center">CoinoCore</h1>
 
 <p align="center">
-  <strong>Official repository for Coino CNO wallet</strong>
+  <strong>Official repository for the Coino (CNO) cryptocurrency wallet</strong>
 </p>
 
 ---
 
-## 📦 Версии
+## 📦 Versions
 
-| Версия | Статус | Описание |
+| Version | Status | Description |
 |---|---|---|
-| **V3** | ✅ **Актуальная** | Coino CNO v2.0.0.2 — рабочий релиз |
-| **V4** | 🔧 **В разработке** | Следующее поколение |
+| **V3** | ✅ **Current** | Coino CNO v2.0.0.2 — stable release |
+| **V4** | 🔧 **In development** | Next generation |
 
 ---
 
 ## 🚀 CoinoCore V3
 
-**Текущий релиз:** `v3.0.0`
+**Current release:** [`v3.0.0`](../../releases/tag/v3.0.0)
 
-### Что нового
-- ✅ libsecp256k1 (замена OpenSSL ECDSA)
-- ✅ OpenSSL 3.x совместимость
-- ✅ Версия 2.0.0.2
-- ✅ Побеждено зависание на блоке 395 740
+### What's new
+- ✅ **libsecp256k1** replaces OpenSSL ECDSA
+- ✅ **OpenSSL 3.x** compatibility via `OPENSSL_API_COMPAT`
+- ✅ **Version** `CNO-v2.0.0.2`
+- ✅ **Fixed** the sync stall at block **395 740**
+- ✅ **Fully synchronized** to block 814 735
 
-### Скачать
-См. [Releases](../../releases/tag/v3.0.0)
+### Platforms
+- 🐧 Linux x86_64
 
-### Сборка
-См. [V3/BUILD.md](V3/BUILD.md)
+### Download
+See [Releases](../../releases/tag/v3.0.0)
+
+### Build
+See [V3/BUILD.md](V3/BUILD.md)
 
 ---
 
 ## 🔧 CoinoCore V4
 
-**Статус:** 🔧 В разработке
+**Status:** 🔧 In development
 
-См. [V4/README.md](V4/README.md)
-
----
-
-## 📚 Документация
-
-- [V3/BUILD.md](V3/BUILD.md) — сборка V3
-- [V4/README.md](V4/README.md) — план V4
+See [V4/README.md](V4/README.md)
 
 ---
 
-## 🤝 Участие
+## 📚 Documentation
 
-Pull requests приветствуются.
-
----
-
-## 📜 Лицензия
-
-MIT — см. [LICENSE](LICENSE)
+- [ROADMAP.md](ROADMAP.md) — release roadmap
+- [V3/BUILD.md](V3/BUILD.md) — build instructions for V3
+- [V4/README.md](V4/README.md) — V4 roadmap
 
 ---
 
-**Автор:** CoinoCore Team  
-**Дата:** 2026
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first.
+
+---
+
+## 📜 License
+
+MIT — see [LICENSE](LICENSE)
+
+---
+
+**Author:** CoinoCore Team  
+**Date:** 2026

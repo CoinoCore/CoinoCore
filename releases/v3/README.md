@@ -1,45 +1,45 @@
 # CoinoCore v3.0.0 — Launch Release
 
-**Дата:** 28.09.2026  
-**Тип:** Первый стабильный релиз  
-**Совместимость:** Сеть Coino v2 (2017) — полная
+**Date:** 2026-09-28  
+**Type:** First stable release  
+**Compatibility:** Coino network v2 (2017) — full
 
 ---
 
-## 🎉 Что это
+## 🎉 What is this
 
-Первый официальный релиз **CoinoCore v3** — современного клиента для криптовалюты Coino (CNO).
+The first official release of **CoinoCore v3** — a modern client for the Coino (CNO) cryptocurrency.
 
-**Это не hard fork.** Это новый клиент для существующей сети v2. Ваши монеты, кошельки и адреса полностью совместимы.
-
----
-
-## ✨ Что нового
-
-### Безопасность
-- ✅ **libsecp256k1** вместо OpenSSL — исправлен краш `BN_num_bits`
-- ✅ **OpenSSL 3.x** совместимость через `OPENSSL_API_COMPAT`
-
-### Сеть
-- ✅ **Исправлено застревание на высоте 395 740**
-- ✅ **Синхронизация** до 814 735
-- ✅ **9 активных пиров**
-
-### Имя
-- ✅ **CoinoCore V3** — новое имя клиента
-- ✅ **Версия** `CNO-v2.0.0.2`
+**This is not a hard fork.** It is a new client for the existing v2 network. Your coins, wallets, and addresses are fully compatible.
 
 ---
 
-## 📦 Артефакты
+## ✨ What's new
 
-| Платформа | Файл | MD5 |
+### Security
+- ✅ **libsecp256k1** replaces OpenSSL — fixed the `BN_num_bits` crash
+- ✅ **OpenSSL 3.x** compatibility via `OPENSSL_API_COMPAT`
+
+### Network
+- ✅ **Fixed** the sync stall at block **395 740**
+- ✅ **Synchronized** to block 814 735
+- ✅ **9 active peers**
+
+### Branding
+- ✅ **CoinoCore V3** — new client name
+- ✅ **Version** `CNO-v2.0.0.2`
+
+---
+
+## 📦 Artifacts
+
+| Platform | File | MD5 |
 |---|---|---|
 | Linux x86_64 | `CoinoCore-V3-linux-x86_64` | `0c06e1de12b21a3666dd55f70d4cc1d5` |
 
 ---
 
-## 🚀 Установка (Linux x86_64)
+## 🚀 Installation (Linux x86_64)
 
 ```bash
 wget https://github.com/CoinoCore/CoinoCore/releases/download/v3.0.0/CoinoCore-V3-linux-x86_64
