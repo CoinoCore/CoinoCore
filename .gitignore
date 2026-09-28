@@ -1,28 +1,56 @@
+# === Данные кошелька ===
 wallet.dat
 *.dat
 blk*.dat
 coino-data/
+
+# === Логи ===
 *.log
 debug.log
+
+# === Объектные файлы ===
 *.o
 *.a
 *.so
 *.P
-build/
-build-qt5/build/
-obj/
+*.lo
+*.Plo
+
+# === Сборка (только в корне) ===
+/build/
+/build-qt5/
+/obj/
 Makefile
 .qmake.stash
+*.moc
+
+# === Бэкапы ===
 *.bak
 *.bak-*
 *.original
+
+# === macOS ===
 .DS_Store
 ._*
+
+# === IDE ===
 .vscode/
 .idea/
 *.swp
+
+# === Бинарники (в Releases) ===
 Coino-qt
 CoinoCore-V3
 Coinod
+
+# === Архивы (кроме releases/) ===
 *.tar.gz
 *.zip
+!releases/**/*.tar.gz
+!releases/**/*.zip
+
+# === Вложенные git ===
+**/.git/
+**/secp256k1/.deps/
+**/secp256k1/*.o
+**/secp256k1/*.lo
