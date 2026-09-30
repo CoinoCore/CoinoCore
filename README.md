@@ -1,3 +1,12 @@
+> ## ⚠️ CURRENT BUILD MOVED
+>
+> **Working build Coinod v3.0.1:** https://github.com/CoinoCore/coinod-v3/releases/tag/v3.0.1
+>
+> Release [`v3.0.0`](https://github.com/CoinoCore/CoinoCore/releases/tag/v3.0.0) contains a **bug at block 395,740**.
+> Please use the current **[coinod-v3](https://github.com/CoinoCore/coinod-v3)** repository.
+>
+> ---
+
 <p align="center">
   <img src="assets/logos/CoinoCore-Logo-256.png" alt="CoinoCore" width="200"/>
 </p>
